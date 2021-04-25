@@ -144,6 +144,11 @@ margin-bottom: -2rem;
 
 .categorias {
     font-weight: 500;
+    
+}
+
+.categorias {
+    margin-left: 25.5rem ;
 }
 
 .fa-bars {
@@ -384,6 +389,10 @@ li:nth-child(4) {
     width: 95%;
 }
 
+.categorias {
+    margin-left: 20rem ;
+}
+
 /* SECTION - AVALIACOES */
 
 /* SECTION - ENTREVISTAS */
@@ -443,6 +452,10 @@ li:nth-child(4) {
 .banners img {
     width: 90%;
     padding-bottom: 2rem;
+}
+
+.categorias {
+    margin-left: 12.5rem ;
 }
 
 #destaque button {
@@ -536,6 +549,10 @@ li:nth-child(4) {
 
 .banners img {
     margin-bottom: 2rem;
+}
+
+.categorias {
+    margin-left: 7rem ;
 }
 
 #destaque button {
@@ -662,6 +679,14 @@ li:nth-child(4) {
     padding-bottom: 2rem;
     margin-bottom: 0rem;
     width: 100%;
+}
+
+.categorias {
+    margin-left: 2rem;
+}
+
+#destaque h2 {
+    text-align: center;
 }
 
 #destaque button {
