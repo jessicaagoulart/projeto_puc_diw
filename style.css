@@ -1,0 +1,746 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+i {
+    color: #462749;
+}
+
+#lancamento {
+    background: rgb(186, 209, 205);
+}
+
+#entrevista {
+    background: rgb(186, 209, 205);
+}
+
+.footer {
+    background-color: rgb(201, 201, 201);
+}
+
+/* TITLES */
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #462749;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #462749;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+/* HEADER */
+
+.logo {
+    width: 70%;
+}
+
+.header {
+    background-color: #18091f;
+}
+
+.container-fluid {
+    background: transparent;
+}
+
+.container {
+    background: transparent;
+}
+
+.header a {
+    font-size: 0.9rem;
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color:#18091f;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #462749;
+    border-color: #462749;
+}
+
+/* MAIN - LANÇAMENTO */
+
+.video iframe {
+    margin-left: 8rem;
+}
+
+.descricao h3, .sinopse, .info p, .p-avaliacao, .avaliacao {
+    margin-left: -1rem;
+}
+
+.p-avaliacao {
+    font-weight: 700;
+}
+
+.elenco {
+    font-weight: 700;
+}
+
+.descricao {
+    margin-left: -3rem;
+}
+
+.sinopse {
+    text-align: justify;
+}
+
+.carousel-indicators {
+margin-bottom: -2rem;
+}
+
+#carrossel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* MAIN - EM DESTAQUE */
+
+#destaque button {
+    margin-top: 2rem;
+}
+
+#destaque h2 {
+    margin-bottom: 2rem;
+}
+
+.categorias {
+    font-weight: 500;
+}
+
+.fa-bars {
+    color: white;
+
+}
+a:hover {
+    color: #18091f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #18091f ;
+    border-color: #18091f ;
+}
+
+.btn-primary {
+    border-color: rgb(70, 39, 73);
+    background-color: rgb(70, 39, 73);
+    align-self: right;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 39, 73);
+    border-color: rgb(70, 39, 73);
+    box-shadow: rgba(70, 39, 73, 0.7) 0px 0px 0px 0.25rem;
+}
+
+a {
+    color: rgb(70, 39, 73);
+}
+
+/* SECTION AVALIACOES */
+
+#avaliacoes h2 {
+    margin-bottom: 2rem;
+}
+
+.box-avaliacao p {
+    text-align: justify;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.foto-perfil img {
+    border-radius: 15px;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+
+/* SECTION ENTREVISTAS */
+
+.textinhos h4, .textinhos p {
+    margin-left: 2rem;
+}
+
+.textinhos .row {
+    margin-top: 1rem;
+}
+
+#entrevista h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#entrevista button {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+/* SECTION NOVIDADES */
+
+hr {
+    border: 1px solid;
+}
+
+.news img {
+    max-width: 100%;
+}
+
+.news p {
+    text-align: justify;
+}
+
+.tags div {
+    display: inline;
+    background-color: rgb(70, 39, 73);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.social h3 {
+    margin-bottom: 0.5rem;
+    color: rgb(70, 39, 73);
+}
+
+.row hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tags {
+    margin-bottom: 1rem;
+}
+
+#novidades h2 {
+    margin-bottom: 1rem;
+}
+
+#novidades i {
+    font-size: 2rem;
+}
+
+.icones i {
+    font-size: 2.5rem !important;
+}
+
+.sobre-descricao {
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.editorial h2 {
+    margin-top: 2rem;
+}
+
+.social h3 {
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+
+.footer p {
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.footer img {
+    width: 150px;
+    padding: 1rem;
+}
+
+/*-----------------------------------------------------------------------*/
+/* Large devices (1399.98px) */
+@media screen and (min-width: 1199.98px) and (max-width: 1399.98px) {
+
+/* MAIN - LANÇAMENTO */
+
+.video iframe {
+    margin-left: 6.5rem;
+    width: 70%;
+}
+
+.info p, .p-avaliacao, .avaliacao {
+    font-size: 1rem;
+}
+
+/* SECTION - CATEGORIAS */
+
+.banners img {
+    width: 95%;
+}
+
+/* SECTION - AVALIACOES */
+
+/* SECTION - ENTREVISTAS */
+
+.textinhos h4, .textinhos p {
+    margin-left: 0rem;
+}
+
+/* SECTION - NOVIDADES */
+
+}
+/*-----------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------*/
+/* Large devices (desktops, 992px to 1199) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+body {
+    font-size: 1rem;
+}
+
+/* TITLES */
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+.nome {
+    font-size: 1.3rem;
+}
+
+/* HEADER */
+
+li:nth-child(5) {
+    display: none;
+}
+
+li:nth-child(4) {
+    display: none;
+}
+
+/* SECTION - LANÇAMENTO */
+
+.video iframe {
+    margin-left: 5.3rem;
+    width: 70%;
+}
+
+/* SECTION - CATEGORIAS */
+
+.banners img {
+    width: 95%;
+}
+
+/* SECTION - AVALIACOES */
+
+/* SECTION - ENTREVISTAS */
+
+.textinhos h4, .textinhos p {
+    margin-left: 0rem;
+}
+
+/* SECTION - NOVIDADES */
+
+.editorial h2 {
+    margin-bottom: 1rem;
+}
+
+.social h3 {
+    margin-bottom: 1rem;
+}
+
+ /* FOOTER */
+
+ .footer p {
+     font-size: 0.9rem;
+ }
+
+}
+/*-----------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------*/
+/*  Medium devices (tablets, 768px to 991.98px) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+/* HEADER */
+
+/* SECTION - LANÇAMENTOS */
+
+.video iframe {
+    display: flex;
+    margin: 0 auto 2rem;
+    justify-content: center;
+}
+
+.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
+    margin-left: 3rem;
+}
+
+.info {
+    margin-left: 3.4rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+
+/* SECTION - CATEGORIAS */
+
+.banners img {
+    width: 90%;
+    padding-bottom: 2rem;
+}
+
+#destaque button {
+    margin-top: 0rem;
+}
+
+/* SECTION - AVALIACOES */
+
+.foto-perfil img {
+    width: 100%;
+}
+
+.descricao_1, .descricao_2, .descricao_3 {
+    margin-bottom: 1rem;
+}
+
+/* SECTION - ENTREVISTAS */
+
+.textinhos h4, .textinhos p {
+    margin-left: 0rem;
+}
+
+.videos {
+    margin-bottom: 2rem;
+}
+
+/* SECTION - NOVIDADES */
+
+.editorial h2 {
+    margin-bottom: 1rem;
+}
+
+.social h3 {
+    margin-bottom: 1rem;
+}
+
+#novidades img {
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.novidades {
+    margin-bottom: 0rem;
+}
+
+.news h4 {
+    text-align: center;
+}
+
+.sobre {
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+}
+/*-----------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------*/
+/* Small devices (landscape phones, 576px to 767.98) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+
+/* HEADER */
+
+/* SECTION - LANÇAMENTOS */
+
+.video iframe {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+
+.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
+    margin-left: 3rem;
+}
+
+.info {
+    margin-left: 3.4rem;
+}
+
+/* SECTION - CATEGORIAS */
+
+.banners img {
+    margin-bottom: 2rem;
+}
+
+#destaque button {
+    margin-top: 0rem;
+}
+
+/* SECTION - AVALIACOES */
+
+#avaliacoes h2 {
+    text-align: center;
+}
+
+.descricao_1, .descricao_2, .descricao_3 {
+    margin-bottom: 1rem;
+}
+
+/* SECTION - ENTREVISTAS */
+
+.videos {
+    margin-bottom: 1rem;
+}
+
+.videos iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#entrevista button {
+    margin-top: 0rem;
+}
+
+#entrevista h2 {
+    text-align: center;
+}
+
+.textinhos h4 {
+    text-align: center;
+}
+
+.textinhos h4, .textinhos p {
+    margin-left: 0rem;
+}
+
+
+/* SECTION - NOVIDADES */
+
+#novidades img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.news h4 {
+    text-align: center;
+}
+
+#novidades h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sobre {
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+
+.footer img {
+    display: none;
+}
+
+.footer p {
+    text-align: center;
+    padding: 1rem;
+}
+
+}
+/*-----------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+
+
+/* HEADER */
+
+/* SECTION - LANÇAMENTOS */
+
+.video iframe {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.info p, .elenco div, .info div {
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.nomes {
+    margin-left: 0 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+
+.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
+    margin-left: 3rem;
+}
+
+.info {
+    margin-left: 3.4rem;
+}
+
+#lancamento h3 {
+    text-align: center;
+}
+
+/* SECTION - CATEGORIAS */
+
+.banners img {
+    padding-bottom: 2rem;
+    margin-bottom: 0rem;
+    width: 100%;
+}
+
+#destaque button {
+    margin-top: 0rem;
+}
+
+/* SECTION - AVALIACOES */
+
+.foto-perfil img {
+    width: 130%;
+}
+
+#avaliacoes h2 {
+    text-align: center;
+}
+
+.descricao_1, .descricao_2, .descricao_3 {
+    margin-bottom: 1rem;
+}
+
+/* SECTION - ENTREVISTAS */
+
+.videos {
+    margin-bottom: 1rem;
+}
+
+.videos iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#entrevista button {
+    margin-top: 1rem;
+}
+
+#entrevista h2 {
+    text-align: center;
+}
+
+.textinhos h4 {
+    text-align: center;
+}
+
+.textinhos h4, .textinhos p {
+    margin-left: 0rem;
+}
+
+
+/* SECTION - NOVIDADES */
+
+#novidades img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.news h4 {
+    text-align: center;
+}
+
+#novidades h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sobre {
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+
+.footer img {
+    display: none;
+}
+
+.footer p {
+    text-align: center;
+    padding: 1rem;
+}
+
+}
+/*-----------------------------------------------------------------------*/
+
