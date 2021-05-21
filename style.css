@@ -1,832 +1,857 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
 }
 
-html,body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+html,
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 section {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 i {
-    color: #462749;
+	color: #462749;
 }
 
 #lancamento {
-    background: rgb(186, 209, 205);
+	background: rgb(186, 209, 205);
 }
 
 #entrevista {
-    background: rgb(186, 209, 205);
+	background: rgb(186, 209, 205);
 }
 
 .footer {
-    background-color: rgb(201, 201, 201);
+	background-color: rgb(201, 201, 201);
 }
 
 /* TITLES */
 
 h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #462749;
-    margin-bottom: 0rem;
-    margin-top: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #462749;
+	margin-bottom: 0rem;
+	margin-top: 2rem;
 }
 
 h3 {
-    font-weight: 600;
-    font-size: 1.6rem;
+	font-weight: 600;
+	font-size: 1.6rem;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 1.7rem;
-    color: #462749;
-    margin-bottom: 0;
+	font-weight: 700;
+	font-size: 1.7rem;
+	color: #462749;
+	margin-bottom: 0;
 }
 
 h4 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 0.8rem;
-    margin-top: 0.8rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin-bottom: 0.8rem;
+	margin-top: 0.8rem;
 }
 
 /* HEADER */
 
 .logo {
-    width: 70%;
+	width: 70%;
 }
 
 .header {
-    background-color: #18091f;
+	background-color: #18091f;
 }
 
 li {
-    border-radius: 15px;
+	border-radius: 15px;
 }
 
 .mouse:hover {
-    opacity: 60%;
+	opacity: 60%;
 }
 
 .container-fluid {
-    background: transparent;
+	background: transparent;
 }
 
 .container {
-    background: transparent;
+	background: transparent;
 }
 
 .header a {
-    font-size: 0.9rem;
-    color: white !important;
+	font-size: 0.9rem;
+	color: white !important;
 }
 
 .btn-outline-success {
-    color: white;
-    border-color:#18091f;
+	color: white;
+	border-color: #18091f;
 }
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #462749;
-    border-color: #462749;
+	color: #fff;
+	background-color: #462749;
+	border-color: #462749;
 }
 
 /* MAIN - LANÇAMENTO */
 
-.video iframe {
-    margin-left: 8rem;
+.descricao h3,
+.sinopse,
+.info p,
+.p-avaliacao {
+	margin-left: -1rem;
 }
 
-.descricao h3, .sinopse, .info p, .p-avaliacao, .avaliacao {
-    margin-left: -1rem;
+.video iframe {
+	width: 95%;
+	height: 100%;
 }
 
 .p-avaliacao {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .elenco {
-    font-weight: 700;
-}
-
-.descricao {
-    margin-left: -3rem;
+	font-weight: 700;
 }
 
 .sinopse {
-    text-align: justify;
+	text-align: justify;
 }
 
 .carousel-indicators {
-margin-bottom: -2rem;
+	margin-bottom: -2rem;
 }
 
 #carrossel {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* MAIN - EM DESTAQUE */
 
 #destaque button {
-    margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 #destaque h2 {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .categorias {
-    font-weight: 500;
-    margin-left: 31rem ;
-    
+	font-weight: 500;
+	margin-left: 31rem;
 }
 .colapso {
-    width: 50%;
-    margin-left: 19.5rem;
+	width: 50%;
+	margin-left: 19.5rem;
 }
 
 .em-destaque {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 .card-body {
-    padding: 0;
+	padding: 0;
 }
 
 .fa-bars {
-    color: white;
-
+	color: white;
 }
 a:hover {
-    color: #18091f;
+	color: #18091f;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #18091f ;
-    border-color: #18091f ;
+	color: #fff;
+	background-color: #18091f;
+	border-color: #18091f;
 }
 
 .btn-primary {
-    border-color: rgb(70, 39, 73);
-    background-color: rgb(70, 39, 73);
-    align-self: right;
+	border-color: rgb(70, 39, 73);
+	background-color: rgb(70, 39, 73);
+	align-self: right;
 }
 
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-    color: rgb(255, 255, 255);
-    background-color: rgb(70, 39, 73);
-    border-color: rgb(70, 39, 73);
-    box-shadow: rgba(70, 39, 73, 0.7) 0px 0px 0px 0.25rem;
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	color: rgb(255, 255, 255);
+	background-color: rgb(70, 39, 73);
+	border-color: rgb(70, 39, 73);
+	box-shadow: rgba(70, 39, 73, 0.7) 0px 0px 0px 0.25rem;
 }
 
 a {
-    color: rgb(70, 39, 73);
+	color: rgb(70, 39, 73);
+}
+
+.banners img {
+	box-shadow: 5px 5px 5px #555;
+	transition: 0.5s all;
+}
+
+.banners img:hover {
+	box-shadow: 0px 0px 0px;
 }
 
 /* SECTION AVALIACOES */
 
 #avaliacoes h2 {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .box-avaliacao p {
-    text-align: justify;
+	text-align: justify;
 }
 
 .nome {
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-align: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0;
+	align-self: center;
 }
 
-.foto-perfil img {
-    border-radius: 15px;
-    width: 100%;
-    padding: 0px;
-    margin-bottom: 1rem;
+.avaliacoes img {
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px #999;
+	padding: 0px;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.avaliacoes {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.avaliacao {
+	border: 1px solid #999;
+	box-shadow: 2px 2px 5px #999, -2px -2px 5px #999;
+	border-radius: 15px;
+	width: 32%;
+	padding: 20px;
+	transition: 0.5s all;
+}
+
+@media screen and (max-width: 991px) {
+	.avaliacoes {
+		flex-direction: column;
+	}
+
+	.avaliacao {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.avaliacao:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+.avaliacao:hover {
+	box-shadow: 1px 1px 2px #999, -1px -1px 2px #999;
+}
+
+.data p {
+	text-align: center;
 }
 
 /* SECTION ENTREVISTAS */
 
-.textinhos h4, .textinhos p {
-    margin-left: 2rem;
+.textinhos h4,
+.textinhos p {
+	margin-left: 2rem;
 }
 
 .textinhos .row {
-    margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 #entrevista h2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 #entrevista button {
-    margin-top: 0rem;
-    margin-bottom: 2rem;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
 }
 
 /* SECTION NOVIDADES */
 
 hr {
-    border: 1px solid;
+	border: 1px solid;
 }
 
 .news img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 .news p {
-    text-align: justify;
+	text-align: justify;
 }
 
 .tags div {
-    display: inline;
-    background-color: rgb(70, 39, 73);
-    color: white;
-    border-radius: 15px;
-    padding: 5px;
-    font-size: 0.9rem;
+	display: inline;
+	background-color: rgb(70, 39, 73);
+	color: white;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 0.9rem;
 }
 
 .social h3 {
-    margin-bottom: 0.5rem;
-    color: rgb(70, 39, 73);
+	margin-bottom: 0.5rem;
+	color: rgb(70, 39, 73);
 }
 
 .row hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .tags {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 #novidades h2 {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 #novidades i {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .icones i {
-    font-size: 2.5rem !important;
+	font-size: 2.5rem !important;
 }
 
 .sobre-descricao {
-    margin-bottom: 0px;
-    text-align: justify;
+	margin-bottom: 0px;
+	text-align: justify;
 }
 
 .editorial h2 {
-    margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .social h3 {
-    margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .icones i:hover {
-    color: rgb(119, 55, 126);
-
+	color: rgb(119, 55, 126);
 }
 
 /* FOOTER */
 
 .footer p {
-    font-size: 1.1rem;
-    margin-bottom: 0px;
-    margin-left: 20px;
+	font-size: 1.1rem;
+	margin-bottom: 0px;
+	margin-left: 20px;
 }
 
 .footer img {
-    width: 150px;
-    padding: 1rem;
+	width: 150px;
+	padding: 1rem;
 }
 
 /*-----------------------------------------------------------------------*/
 /* Large devices (1399.98px) */
 @media screen and (min-width: 1199.98px) and (max-width: 1399.98px) {
+	/* MAIN - LANÇAMENTO */
 
-/* MAIN - LANÇAMENTO */
+	.info p,
+	.p-avaliacao {
+		font-size: 1rem;
+	}
 
-.video iframe {
-    margin-left: 6.5rem;
-    width: 70%;
+	/* SECTION - EM DESTAQUE */
+
+	.banners img {
+		width: 95%;
+	}
+
+	.categorias {
+		font-weight: 500;
+		margin-left: 26rem;
+	}
+	.colapso {
+		width: 50%;
+		margin-left: 17rem;
+	}
+
+	/* SECTION - AVALIACOES */
+
+	/* SECTION - ENTREVISTAS */
+
+	.textinhos h4,
+	.textinhos p {
+		margin-left: 0rem;
+	}
 }
 
-.info p, .p-avaliacao, .avaliacao {
-    font-size: 1rem;
-}
-
-/* SECTION - EM DESTAQUE */
-
-.banners img {
-    width: 95%;
-}
-
-.categorias {
-    font-weight: 500;
-    margin-left: 26rem ;
-    
-}
-.colapso {
-    width: 50%;
-    margin-left: 17rem;
-}
-
-/* SECTION - AVALIACOES */
-
-/* SECTION - ENTREVISTAS */
-
-.textinhos h4, .textinhos p {
-    margin-left: 0rem;
-}
-
-/* SECTION - NOVIDADES */
-
-}
-/*-----------------------------------------------------------------------*/
-
-
-
-/*-----------------------------------------------------------------------*/
 /* Large devices (desktops, 992px to 1199) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	body {
+		font-size: 1rem;
+	}
 
-body {
-    font-size: 1rem;
+	/* TITLES */
+
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+	}
+
+	.nome {
+		font-size: 1.3rem;
+	}
+
+	/* HEADER */
+
+	li:nth-child(5) {
+		display: none;
+	}
+
+	li:nth-child(4) {
+		display: none;
+	}
+
+	/* SECTION - LANÇAMENTO */
+
+	/* SECTION - EM DESTAQUE */
+
+	.banners img {
+		width: 95%;
+	}
+
+	.categorias {
+		margin-left: 20rem;
+	}
+
+	.colapso {
+		width: 70%;
+		margin-left: 8.3rem;
+	}
+
+	/* SECTION - AVALIACOES */
+
+	/* SECTION - ENTREVISTAS */
+
+	.textinhos h4,
+	.textinhos p {
+		margin-left: 0rem;
+	}
+
+	/* SECTION - NOVIDADES */
+
+	.editorial h2 {
+		margin-bottom: 1rem;
+	}
+
+	.social h3 {
+		margin-bottom: 1rem;
+	}
+
+	/* FOOTER */
+
+	.footer p {
+		font-size: 0.9rem;
+	}
 }
 
-/* TITLES */
-
-h1 {
-    font-size: 1.8rem;
-}
-
-h3 {
-    font-size: 1.4rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.1rem;
-}
-
-.nome {
-    font-size: 1.3rem;
-}
-
-/* HEADER */
-
-li:nth-child(5) {
-    display: none;
-}
-
-li:nth-child(4) {
-    display: none;
-}
-
-/* SECTION - LANÇAMENTO */
-
-.video iframe {
-    margin-left: 5.3rem;
-    width: 70%;
-}
-
-/* SECTION - EM DESTAQUE */
-
-.banners img {
-    width: 95%;
-}
-
-.categorias {
-    margin-left: 20rem ;
-}
-
-.colapso {
-    width: 70%;
-    margin-left: 8.3rem;
-}
-
-/* SECTION - AVALIACOES */
-
-/* SECTION - ENTREVISTAS */
-
-.textinhos h4, .textinhos p {
-    margin-left: 0rem;
-}
-
-/* SECTION - NOVIDADES */
-
-.editorial h2 {
-    margin-bottom: 1rem;
-}
-
-.social h3 {
-    margin-bottom: 1rem;
-}
-
- /* FOOTER */
-
- .footer p {
-     font-size: 0.9rem;
- }
-
-}
-/*-----------------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------------------*/
 /*  Medium devices (tablets, 768px to 991.98px) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+	/* HEADER */
 
-/* HEADER */
+	/* SECTION - LANÇAMENTOS */
 
-/* SECTION - LANÇAMENTOS */
+	.video iframe {
+		margin: 0 auto 2rem;
+	}
 
-.video iframe {
-    display: flex;
-    margin: 0 auto 2rem;
-    justify-content: center;
+	.descricao h3,
+	.sinopse,
+	.p-avaliacao {
+		margin-left: 3rem;
+	}
+
+	.info {
+		margin-left: 3.4rem;
+		width: 100%;
+	}
+
+	.carousel-control-next,
+	.carousel-control-prev {
+		display: none;
+	}
+
+	/* SECTION - EM DESTAQUE */
+
+	.banners img {
+		width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	.categorias {
+		margin-left: 12.5rem;
+	}
+
+	.colapso {
+		width: 90%;
+		margin-left: 2rem;
+	}
+
+	#destaque button {
+		margin-top: 0rem;
+	}
+
+	/* SECTION - AVALIACOES */
+
+	.foto-perfil img {
+		width: 100%;
+	}
+
+	.descricao_1,
+	.descricao_2,
+	.descricao_3 {
+		margin-bottom: 1rem;
+	}
+
+	/* SECTION - ENTREVISTAS */
+
+	.textinhos h4,
+	.textinhos p {
+		margin-left: 0rem;
+	}
+
+	.videos {
+		margin-bottom: 2rem;
+	}
+
+	/* SECTION - NOVIDADES */
+
+	.editorial h2 {
+		margin-bottom: 1rem;
+	}
+
+	.social h3 {
+		margin-bottom: 1rem;
+	}
+
+	#novidades img {
+		width: 50%;
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+
+	.novidades {
+		margin-bottom: 0rem;
+	}
+
+	.news h4 {
+		text-align: center;
+	}
+
+	.sobre {
+		margin-top: 2rem;
+	}
+
+	/* FOOTER */
+
+	.footer p {
+		font-size: 0.9rem;
+	}
 }
 
-.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
-    margin-left: 3rem;
-}
-
-.info {
-    margin-left: 3.4rem;
-    width: 100%;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    display: none;
-}
-
-/* SECTION - EM DESTAQUE */
-
-.banners img {
-    width: 90%;
-    padding-bottom: 2rem;
-}
-
-.categorias {
-    margin-left: 12.5rem ;
-}
-
-.colapso {
-    width: 90%;
-    margin-left: 2rem;
-}
-
-#destaque button {
-    margin-top: 0rem;
-}
-
-/* SECTION - AVALIACOES */
-
-.foto-perfil img {
-    width: 100%;
-}
-
-.descricao_1, .descricao_2, .descricao_3 {
-    margin-bottom: 1rem;
-}
-
-/* SECTION - ENTREVISTAS */
-
-.textinhos h4, .textinhos p {
-    margin-left: 0rem;
-}
-
-.videos {
-    margin-bottom: 2rem;
-}
-
-/* SECTION - NOVIDADES */
-
-.editorial h2 {
-    margin-bottom: 1rem;
-}
-
-.social h3 {
-    margin-bottom: 1rem;
-}
-
-#novidades img {
-    width: 50%;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.novidades {
-    margin-bottom: 0rem;
-}
-
-.news h4 {
-    text-align: center;
-}
-
-.sobre {
-    margin-top: 2rem;
-}
-
-/* FOOTER */
-
-.footer p {
-    font-size: 0.9rem;
-}
-
-}
-/*-----------------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------------------*/
 /* Small devices (landscape phones, 576px to 767.98) */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+	/* HEADER */
 
-/* HEADER */
+	/* SECTION - LANÇAMENTOS */
 
-/* SECTION - LANÇAMENTOS */
+	.carousel-control-next,
+	.carousel-control-prev {
+		display: none;
+	}
 
-.video iframe {
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+	.descricao h3,
+	.sinopse,
+	.p-avaliacao {
+		margin-left: 3rem;
+	}
+
+	.info {
+		margin-left: 3.4rem;
+		width: 100%;
+	}
+
+	/* SECTION - EM DESTAQUE */
+
+	.banners img {
+		margin-bottom: 2rem;
+	}
+
+	.categorias {
+		margin-left: 7rem;
+	}
+
+	.colapso {
+		width: 80%;
+		margin-left: 3rem;
+	}
+
+	#destaque button {
+		margin-top: 0rem;
+	}
+
+	/* SECTION - AVALIACOES */
+
+	#avaliacoes h2 {
+		text-align: center;
+	}
+
+	.descricao_1,
+	.descricao_2,
+	.descricao_3 {
+		margin-bottom: 1rem;
+	}
+
+	/* SECTION - ENTREVISTAS */
+
+	.videos {
+		margin-bottom: 1rem;
+	}
+
+	.videos iframe {
+		width: 100%;
+		height: 300px;
+	}
+
+	#entrevista button {
+		margin-top: 0rem;
+	}
+
+	#entrevista h2 {
+		text-align: center;
+	}
+
+	.textinhos h4 {
+		text-align: center;
+	}
+
+	.textinhos h4,
+	.textinhos p {
+		margin-left: 0rem;
+	}
+
+	/* SECTION - NOVIDADES */
+
+	#novidades img {
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+
+	.news h4 {
+		text-align: center;
+	}
+
+	#novidades h2 {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.sobre {
+		margin-top: 2rem;
+	}
+
+	/* FOOTER */
+
+	.footer img {
+		display: none;
+	}
+
+	.footer p {
+		text-align: center;
+		padding: 1rem;
+	}
 }
 
-.carousel-control-next, .carousel-control-prev {
-    display: none;
-}
-
-.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
-    margin-left: 3rem;
-}
-
-.info {
-    margin-left: 3.4rem;
-    width: 100%;
-}
-
-/* SECTION - EM DESTAQUE */
-
-.banners img {
-    margin-bottom: 2rem;
-}
-
-.categorias {
-    margin-left: 7rem ;
-}
-
-.colapso {
-    width: 80%;
-    margin-left: 3rem;
-}
-
-#destaque button {
-    margin-top: 0rem;
-}
-
-/* SECTION - AVALIACOES */
-
-#avaliacoes h2 {
-    text-align: center;
-}
-
-.descricao_1, .descricao_2, .descricao_3 {
-    margin-bottom: 1rem;
-}
-
-/* SECTION - ENTREVISTAS */
-
-.videos {
-    margin-bottom: 1rem;
-}
-
-.videos iframe {
-    width: 100%;
-    height: 300px;
-}
-
-#entrevista button {
-    margin-top: 0rem;
-}
-
-#entrevista h2 {
-    text-align: center;
-}
-
-.textinhos h4 {
-    text-align: center;
-}
-
-.textinhos h4, .textinhos p {
-    margin-left: 0rem;
-}
-
-
-/* SECTION - NOVIDADES */
-
-#novidades img {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.news h4 {
-    text-align: center;
-}
-
-#novidades h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.sobre {
-    margin-top: 2rem;
-}
-
-/* FOOTER */
-
-.footer img {
-    display: none;
-}
-
-.footer p {
-    text-align: center;
-    padding: 1rem;
-}
-
-}
-/*-----------------------------------------------------------------------*/
-
-
-
-/*-----------------------------------------------------------------------*/
 /* Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
+	/* HEADER */
 
+	.header img {
+		width: 100%;
+		padding: 1rem;
+		display: flex;
+		justify-content: center;
+	}
 
-/* HEADER */
+	/* SECTION - LANÇAMENTOS */
 
-.header img {
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
+	.video iframe {
+		display: flex;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.info p,
+	.elenco div,
+	.info div {
+		padding: 0;
+		margin-left: 0rem;
+	}
+
+	.nomes {
+		margin-left: 0 !important;
+	}
+
+	.carousel-control-next,
+	.carousel-control-prev {
+		display: none;
+	}
+
+	.descricao h3,
+	.sinopse,
+	.p-avaliacao {
+		margin-left: 3rem;
+	}
+
+	.info {
+		margin-left: 3.4rem;
+		width: 100%;
+	}
+
+	#lancamento h3 {
+		text-align: center;
+	}
+
+	/* SECTION - EM DESTAQUE */
+
+	.banners img {
+		margin-bottom: 2rem;
+		width: 80%;
+	}
+
+	.categorias {
+		margin-left: 1rem;
+	}
+
+	.colapso {
+		width: 90%;
+		margin-left: 0rem;
+	}
+
+	#destaque h2 {
+		text-align: center;
+	}
+
+	#destaque button {
+		margin-top: 0rem;
+	}
+
+	/* SECTION - AVALIACOES */
+
+	.foto-perfil img {
+		width: 130%;
+	}
+
+	#avaliacoes h2 {
+		text-align: center;
+	}
+
+	.descricao_1,
+	.descricao_2,
+	.descricao_3 {
+		margin-bottom: 1rem;
+	}
+
+	/* SECTION - ENTREVISTAS */
+
+	.videos {
+		margin-bottom: 1rem;
+	}
+
+	.videos iframe {
+		width: 100%;
+		height: 300px;
+	}
+
+	#entrevista button {
+		margin-top: 1rem;
+	}
+
+	#entrevista h2 {
+		text-align: center;
+	}
+
+	.textinhos h4 {
+		text-align: center;
+	}
+
+	.textinhos h4,
+	.textinhos p {
+		margin-left: 0rem;
+	}
+
+	/* SECTION - NOVIDADES */
+
+	#novidades img {
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+
+	.news h4 {
+		text-align: justify;
+	}
+
+	#novidades h2 {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.sobre {
+		margin-top: 2rem;
+	}
+
+	/* FOOTER */
+
+	.footer img {
+		display: none;
+	}
+
+	.footer p {
+		text-align: center;
+		padding: 1rem;
+	}
+
+	/*-----------------------------------------------------------------------*/
 }
-
-/* SECTION - LANÇAMENTOS */
-
-.video iframe {
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-}
-
-.info p, .elenco div, .info div {
-    padding: 0;
-    margin-left: 0rem;
-}
-
-.nomes {
-    margin-left: 0 !important;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    display: none;
-}
-
-.descricao h3, .sinopse, .p-avaliacao, .avaliacao {
-    margin-left: 3rem;
-}
-
-.info {
-    margin-left: 3.4rem;
-    width: 100%;
-}
-
-#lancamento h3 {
-    text-align: center;
-}
-
-/* SECTION - EM DESTAQUE */
-
-.banners img {
-    padding-bottom: 2rem;
-    margin-bottom: 0rem;
-    width: 80%;
-}
-
-.categorias {
-    margin-left: 1rem;
-}
-
-.colapso {
-    width: 90%;
-    margin-left: 0rem;
-}
-
-#destaque h2 {
-    text-align: center;
-}
-
-#destaque button {
-    margin-top: 0rem;
-}
-
-/* SECTION - AVALIACOES */
-
-.foto-perfil img {
-    width: 130%;
-}
-
-#avaliacoes h2 {
-    text-align: center;
-}
-
-.descricao_1, .descricao_2, .descricao_3 {
-    margin-bottom: 1rem;
-}
-
-/* SECTION - ENTREVISTAS */
-
-.videos {
-    margin-bottom: 1rem;
-}
-
-.videos iframe {
-    width: 100%;
-    height: 300px;
-}
-
-#entrevista button {
-    margin-top: 1rem;
-}
-
-#entrevista h2 {
-    text-align: center;
-}
-
-.textinhos h4 {
-    text-align: center;
-}
-
-.textinhos h4, .textinhos p {
-    margin-left: 0rem;
-}
-
-
-/* SECTION - NOVIDADES */
-
-#novidades img {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.news h4 {
-    text-align: justify;
-}
-
-#novidades h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.sobre {
-    margin-top: 2rem;
-}
-
-/* FOOTER */
-
-.footer img {
-    display: none;
-}
-
-.footer p {
-    text-align: center;
-    padding: 1rem;
-}
-
-}
-/*-----------------------------------------------------------------------*/
-
