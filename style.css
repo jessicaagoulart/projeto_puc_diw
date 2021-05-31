@@ -437,6 +437,7 @@ iframe {
 	flex-wrap: wrap;
 	width: 100vw;
 	justify-content: center;
+	background: #18091f;
 }
 
 #resultado img {
