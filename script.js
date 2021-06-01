@@ -64,7 +64,7 @@ function showMovies(data) {
     const movieEl = document.createElement('div');
     movieEl.classList.add('movie');
     movieEl.innerHTML = ` 
-    <img onclick="goTo()" src="${IMG_URL + poster_path}" alt="${title}">
+    <img onclick="goTo(${movie})" src="${IMG_URL + poster_path}" alt="${title}">
     
     <div class="overview">
       <div class="movie-info">
@@ -76,7 +76,6 @@ function showMovies(data) {
       <div id="pontos" style="color: ${getColor(vote_average)}; margin-top: 10px;" >${vote_average} pontos</div>
     </div>
 `
-
     destaque.appendChild(movieEl);
   })
 }
@@ -120,7 +119,7 @@ function showAllMovies(data) {
     if (poster_path != null && overview != "") {
       movieEl.classList.add('movie');
       movieEl.innerHTML = ` 
-      <img onclick="goTo()" src="${IMG_URL + poster_path}" alt="${title}">
+      <img onclick="goTo(${movie})" src="${IMG_URL + poster_path}" alt="${title}">
   
       <div class="overview">
         <div class="movie-info">
@@ -131,15 +130,13 @@ function showAllMovies(data) {
     </div>
   `
       resultado.appendChild(movieEl);
+
     }
 
   })
 }
 
-function goTo() {
+function goTo({ movie }) {
 
-  console.log();
-  item.innerHTML = '';
-
-
+  console.log({ movie });
 }

@@ -441,6 +441,16 @@ iframe {
 	color: rgb(119, 55, 126);
 }
 
+.edit > div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.fa-user {
+	margin-right: 10px;
+}
+
 /* FOOTER */
 
 .footer p {
@@ -631,5 +641,35 @@ select:focus {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
+	.footer p {
+		font-size: 0.8em;
+	}
+
+	.footer img {
+		width: 80%;
+		margin-top: 20px;
+	}
+
+	.footer {
+		height: 40%;
+	}
+
+	#entrevista {
+		padding: 10px;
+	}
+
+	#novidades {
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.noticias {
+		margin: 0px;
+	}
+
+	.avaliacao {
+		margin-bottom: 10px;
+	}
 }
 /*-----------------------------------------------------------------------*/
