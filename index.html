@@ -37,6 +37,10 @@
 
         </section>
 
+        <section id="item">
+
+        </section>
+
         <section id="row-movies">
             <h2>
                 Populares
@@ -51,14 +55,14 @@
                 </div>
 
                 <script>
-                    let total = -3600;
+                    let total = -4000;
 
                     function handleScrollLeft() {
-                        total += 600;
+                        total += 1200;
 
                         if (total >= 0) {
                             document.getElementById('destaque').style.cssText = `transition: 0.5s all; margin-left: 0px;`;
-                            total = -4900;
+                            total = -6400;
                         }
                         else {
                             document.getElementById('destaque').style.cssText = `transition: 0.5s all; margin-left: ${total}px;`;
@@ -66,8 +70,8 @@
                     }
 
                     function handleScrollRight() {
-                        total -= 600;
-                        if (total <= -4900) {
+                        total -= 1200;
+                        if (total <= -7400) {
                             document.getElementById('destaque').style.cssText = `transition: 0.5s all; margin-left: 0px;`;
                             total = 0;
                         }
@@ -80,6 +84,8 @@
                         }
                     }
                 </script>
+
+
 
                 <div id="destaque" style="margin-left: -3600px;">
                     <!-- JAVASCRIPT -->

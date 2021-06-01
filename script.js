@@ -15,6 +15,8 @@ const pontos = document.getElementById('pontos');
 const resultado = document.getElementById('resultado');
 const search = document.getElementById('search');
 const form = document.getElementById('form');
+const imagem = document.getElementsByClassName("imagem");
+const item = document.getElementById('item');
 
 getMovies(most_popular);
 
@@ -58,14 +60,20 @@ function showMovies(data) {
   destaque.innerHTML = '';
 
   data.forEach(movie => {
-    const { title, poster_path, overview } = movie;
+    const { title, poster_path, vote_average, overview } = movie;
     const movieEl = document.createElement('div');
     movieEl.classList.add('movie');
     movieEl.innerHTML = ` 
-    <img src="${IMG_URL + poster_path}" alt="${title}">
-
+    <img onclick="goTo()" src="${IMG_URL + poster_path}" alt="${title}">
+    
     <div class="overview">
-        ${overview}
+      <div class="movie-info">
+        <h3>${title}</h3>
+      </div>
+      <p>
+      ${overview}
+      </p>
+      <div id="pontos" style="color: ${getColor(vote_average)}; margin-top: 10px;" >${vote_average} pontos</div>
     </div>
 `
 
@@ -83,7 +91,6 @@ function getColor(vote) {
     return "red"
   }
 }
-
 
 function getAllMovies(url) {
   fetch(url).then((response) => response.json()).then(data => {
@@ -108,16 +115,20 @@ function showAllMovies(data) {
   resultado.innerHTML = '';
 
   data.forEach(movie => {
-    const { title, poster_path, overview } = movie;
+    const { title, poster_path, vote_average, overview } = movie;
     const movieEl = document.createElement('div');
     if (poster_path != null && overview != "") {
       movieEl.classList.add('movie');
       movieEl.innerHTML = ` 
-      <img src="${IMG_URL + poster_path}" alt="${title}">
+      <img onclick="goTo()" src="${IMG_URL + poster_path}" alt="${title}">
   
       <div class="overview">
-          ${overview}
-      </div>
+        <div class="movie-info">
+          <h3>${title}</h3>
+        </div>
+        ${overview}
+        <div id="pontos" style="color: ${getColor(vote_average)}; margin-top: 10px;" >${vote_average} pontos</div>
+    </div>
   `
       resultado.appendChild(movieEl);
     }
@@ -125,3 +136,10 @@ function showAllMovies(data) {
   })
 }
 
+function goTo() {
+
+  console.log();
+  item.innerHTML = '';
+
+
+}
