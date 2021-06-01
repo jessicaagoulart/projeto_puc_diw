@@ -671,5 +671,29 @@ select:focus {
 	.avaliacao {
 		margin-bottom: 10px;
 	}
+
+	#search {
+		max-width: 250px;
+	}
+
+	#buscar {
+		height: 400px;
+	}
+
+	#resultado .movie {
+		width: 300px;
+	}
+
+	#resultado img {
+		width: 300px;
+	}
+
+	#resultado .overview p {
+		font-size: 0.8rem;
+	}
+	
+	.movie-info h3 {
+		font-size: 0.9em;
+	}
 }
 /*-----------------------------------------------------------------------*/

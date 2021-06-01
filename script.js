@@ -125,7 +125,8 @@ function showAllMovies(data) {
         <div class="movie-info">
           <h3>${title}</h3>
         </div>
-        ${overview}
+        <p>${overview}</p>
+        
         <div id="pontos" style="color: ${getColor(vote_average)}; margin-top: 10px;" >${vote_average} pontos</div>
     </div>
   `
