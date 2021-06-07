@@ -520,8 +520,10 @@ select:focus {
 
 .card-filme {
 	display: flex;
-	width: 80%;
+	transform: scale(0.8);
 	background-color: #eee;
+	justify-content: center;
+	align-items: center;
 }
 
 .descricao-info {
@@ -530,11 +532,30 @@ select:focus {
 }
 
 .descricao-completa {
+	height: 100%;
+}
+
+.conteudo-descricao {
 	padding: 40px 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
 }
 
 #icone {
 	font-size: 2rem;
+	display: flex;
+	align-self: flex-end;
+}
+
+.imagem-info {
+	width: 50%;
+}
+
+.imagem-info img {
+	width: 100%;
 }
 
 /*-----------------------------------------------------------------------*/
