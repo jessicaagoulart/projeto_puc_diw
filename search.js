@@ -25,7 +25,9 @@ form.addEventListener("submit", (e) => {
 	const searchTerm = search.value;
 
 	if (searchTerm) {
-		getAllMovies(searchURL + "&query=" + searchTerm);
+		getAllMovies(searchURL + "&page=1&query=" + searchTerm);
+		getAllMovies(searchURL + "&page=2&query=" + searchTerm);
+		getAllMovies(searchURL + "&page=3&query=" + searchTerm);
 	}
 });
 
@@ -90,24 +92,31 @@ function goTo(movie) {
 	const cardfilme = document.createElement("div");
 	cardfilme.classList.add("card-filme");
 	cardfilme.innerHTML = ` 
-      <img src="${IMG_URL + poster_path}" alt="${title}">
-  
-      <div class="descricao-completa">
-        <div class="descricao-info">
-          <h2>${title}</h2>
-          <i id="icone" class="far fa-times-circle"></i>
+      <div class="imagem-info">
+        <img src="${IMG_URL + poster_path}" alt="${title}">
+      </div>
+      
+      <div class="conteudo-descricao">
+        <i id="icone" class="far fa-times-circle"></i>
+        
+        <div class="descricao-completa">
+
+          <div class="descricao-info">
+            <h2>${title}</h2>
+            
+          </div>
+          
+          <p>${overview}</p>
+          
+          <p id="pontos" style="color: ${getColor(
+						vote_average
+					)}; margin-top: 10px;" >${vote_average} pontos</p>
+
+          <p>Idioma original: <strong>${original_language}</strong></p>
+
+          <p>Data de lançamento: <strong>${firstDate.getFullYear()}</strong></p>
         </div>
-        
-        <p>${overview}</p>
-        
-        <p id="pontos" style="color: ${getColor(
-					vote_average
-				)}; margin-top: 10px;" >${vote_average} pontos</p>
-
-        <p>Idioma original: <strong>${original_language}</strong></p>
-
-        <p>Data de lançamento: <strong>${firstDate.getFullYear()}</strong></p>
-    </div>
+      </div>
   `;
 	item.appendChild(cardfilme);
 
