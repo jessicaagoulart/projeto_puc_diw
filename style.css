@@ -518,6 +518,27 @@ select:focus {
 
 /*-----------------------------------------------------------------------*/
 
+.card-filme {
+	display: flex;
+	width: 80%;
+	background-color: #eee;
+}
+
+.descricao-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.descricao-completa {
+	padding: 40px 20px;
+}
+
+#icone {
+	font-size: 2rem;
+}
+
+/*-----------------------------------------------------------------------*/
+
 @media screen and (max-width: 991px) {
 	.avaliacoes {
 		flex-direction: column;
@@ -691,7 +712,7 @@ select:focus {
 	#resultado .overview p {
 		font-size: 0.8rem;
 	}
-	
+
 	.movie-info h3 {
 		font-size: 0.9em;
 	}
