@@ -21,7 +21,13 @@ const search = document.getElementById("search");
 const form = document.getElementById("form");
 const imagem = document.getElementsByClassName("imagem");
 
-getMovies(most_popular);
+function getRandomInt(min, max) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min)) + min;
+}
+
+getMovies(most_popular + `&page=${getRandomInt(1, 10)}`);
 
 function getMovies(url) {
 	fetch(url)

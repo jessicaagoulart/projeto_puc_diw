@@ -520,10 +520,12 @@ select:focus {
 
 .card-filme {
 	display: flex;
-	transform: scale(0.8);
 	background-color: #eee;
 	justify-content: center;
 	align-items: center;
+	max-width: 100%;
+	max-height: 100%;
+	overflow-y: scroll;
 }
 
 .descricao-info {
@@ -532,7 +534,7 @@ select:focus {
 }
 
 .descricao-completa {
-	height: 100%;
+	height: 80%;
 }
 
 .conteudo-descricao {
@@ -542,6 +544,7 @@ select:focus {
 	flex-direction: column;
 	align-items: center;
 	width: 50%;
+	height: 100%;
 }
 
 #icone {
@@ -551,11 +554,36 @@ select:focus {
 }
 
 .imagem-info {
-	width: 50%;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imagem-info img {
 	width: 100%;
+}
+
+.link-movie {
+	width: 100px;
+	background-color: rgb(70, 39, 73);
+	border: none;
+	color: white;
+	font-size: 1rem;
+	padding: 5px 20px;
+	border-radius: 15px;
+	transition: all 0.5s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.link-movie:hover {
+	color: rgb(184, 184, 184);
+}
+
+#principal-search {
+	position: relative;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -588,6 +616,14 @@ select:focus {
 	}
 	.entrevistas {
 		justify-content: center;
+	}
+
+	.card-filme p {
+		font-size: 80%;
+	}
+
+	.card-filme h2 {
+		font-size: 80%;
 	}
 }
 
@@ -678,6 +714,27 @@ select:focus {
 		padding: 10px;
 		height: 280px;
 		width: 20px;
+	}
+	.card-filme {
+		flex-direction: column;
+	}
+	.conteudo-descricao {
+		width: 90%;
+		padding: 0px;
+	}
+
+	.descricao-completa {
+		padding: 20px;
+	}
+	.imagem-info img {
+		width: 100%;
+	}
+
+	.imagem-info {
+		width: 100%;
+		margin-top: 350px;
+		padding: 0px;
+		padding-bottom: 10px;
 	}
 }
 
