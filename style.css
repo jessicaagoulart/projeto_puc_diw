@@ -251,12 +251,8 @@ a {
 	z-index: 99;
 	overflow: hidden;
 	cursor: pointer;
-	opacity: 0;
-	transition: 0.5s all;
-}
-
-.movies:hover .scroll {
 	opacity: 1;
+	transition: 0.5s all;
 }
 
 .scroll i {
@@ -675,7 +671,7 @@ select:focus {
 
 	.principal-info {
 		width: 100%;
-		max-width: 400px;
+		max-width: 200px;
 	}
 
 	.conteudo-principal {
