@@ -74,7 +74,7 @@ function showMovies(data) {
 	destaque.innerHTML = "";
 
 	data.forEach((movie) => {
-		const { title, poster_path, vote_average, overview } = movie;
+		const { title, poster_path, vote_average, overview, id } = movie;
 		const movieEl = document.createElement("div");
 		movieEl.classList.add("movie");
 		movieEl.addEventListener("click", goTo);
@@ -88,9 +88,12 @@ function showMovies(data) {
       <p>
       ${overview}
       </p>
-      <div id="pontos" style="color: ${getColor(
-				vote_average
-			)}; margin-top: 10px;" >${vote_average} pontos</div>
+			<div id="pontos-btn">
+				<div id="pontos" style="color: ${getColor(
+					vote_average
+				)}; margin-top: 10px;" >${vote_average} pontos</div>
+				<a class="link-movie" target="_blank" href="https://www.themoviedb.org/movie/${id}">Saiba mais</a>
+			</div>
     </div>
 `;
 		destaque.appendChild(movieEl);
