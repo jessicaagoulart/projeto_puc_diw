@@ -16,7 +16,6 @@ function getAllMovies(url) {
 		.then((response) => response.json())
 		.then((data) => {
 			showAllMovies(data.results);
-			console.log(data);
 		});
 }
 
@@ -67,8 +66,6 @@ function getColor(vote) {
 }
 
 function goTo(movie) {
-	console.log(movie);
-
 	const {
 		title,
 		poster_path,

@@ -194,6 +194,10 @@ a {
 	height: 100%;
 }
 
+.movie img:hover {
+	cursor: pointer;
+}
+
 .movie-info {
 	display: flex;
 	flex-direction: column;
